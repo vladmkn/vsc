@@ -19,7 +19,7 @@
                  }
             
              </remarks>
-             <returns></returns>
+             <returns>Объект WeatherForecast</returns>
         </member>
     </members>
 </doc>
