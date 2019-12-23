@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>testwapi5</name>
+    </assembly>
+    <members>
+        <member name="M:testwapi5.Controllers.WeatherForecastController.Get">
+            <summary>
+            Пример вызова метода Get
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
