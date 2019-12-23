@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerUI;
 
 namespace testwapi5
 {
@@ -71,6 +72,18 @@ namespace testwapi5
                 c =>{
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
                     c.RoutePrefix = string.Empty;
+                    // c.DefaultModelExpandDepth(2);
+                    // c.DefaultModelRendering(ModelRendering.Model);
+                    // c.DefaultModelsExpandDepth(-1);
+                    // c.DisplayOperationId();
+                    // c.DisplayRequestDuration();
+                    // c.DocExpansion(DocExpansion.None);
+                    // c.EnableDeepLinking();
+                    // c.EnableFilter();
+                    // c.MaxDisplayedTags(5);
+                    // c.ShowExtensions();
+                    // c.EnableValidator();
+                    // c.SupportedSubmitMethods(SubmitMethod.Get, SubmitMethod.Head);
                 }
             );
             
