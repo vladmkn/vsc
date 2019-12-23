@@ -27,6 +27,17 @@ namespace testwapi5.Controllers
         /// <summary>
         /// Пример вызова метода Get
         /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Todo
+        ///     {
+        ///        "id": 1,
+        ///        "name": "Item1",
+        ///        "isComplete": true
+        ///     }
+        ///
+        /// </remarks>
         /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
