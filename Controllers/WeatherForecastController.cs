@@ -38,7 +38,7 @@ namespace testwapi5.Controllers
         ///     }
         ///
         /// </remarks>
-        /// <returns></returns>
+        /// <returns>Объект WeatherForecast</returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
