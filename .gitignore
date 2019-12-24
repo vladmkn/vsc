@@ -6,3 +6,5 @@
 *.code-workspace
 bin/*
 obj/*
+[Oo]bj/
+[Bb]in/

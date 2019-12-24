@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladislav\\dotnet\\testwapi5\\testwapi5.csproj": {}
+    "C:\\Users\\vladm\\dotnetcoreproject\\testwapi5\\testwapi5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladislav\\dotnet\\testwapi5\\testwapi5.csproj": {
+    "C:\\Users\\vladm\\dotnetcoreproject\\testwapi5\\testwapi5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladislav\\dotnet\\testwapi5\\testwapi5.csproj",
+        "projectUniqueName": "C:\\Users\\vladm\\dotnetcoreproject\\testwapi5\\testwapi5.csproj",
         "projectName": "testwapi5",
-        "projectPath": "C:\\Users\\Vladislav\\dotnet\\testwapi5\\testwapi5.csproj",
-        "packagesPath": "C:\\Users\\Vladislav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladislav\\dotnet\\testwapi5\\obj\\",
+        "projectPath": "C:\\Users\\vladm\\dotnetcoreproject\\testwapi5\\testwapi5.csproj",
+        "packagesPath": "C:\\Users\\vladm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vladm\\dotnetcoreproject\\testwapi5\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Vladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vladm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -23,6 +27,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
