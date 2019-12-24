@@ -4,7 +4,8 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-bin/*
-obj/*
-[Oo]bj/
-[Bb]in/
+bin/**
+obj/**
+**/bin/**
+**/obj/**
+
